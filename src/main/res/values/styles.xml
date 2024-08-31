@@ -33,6 +33,98 @@
         <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="o_mr1">true</item>
     </style>
 
+    <style name="AmoledOverlay" parent="">
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorPrimarySurface">@android:color/black</item>
+        <item name="colorSurfaceDim">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurfaceVariant">@android:color/black</item>
+        <item name="statusBarBackground">@android:color/black</item>
+        <item name="android:toolbarStyle">@style/ToolbarTransparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="colorSecondaryContainer">@android:color/black</item>
+        <item name="colorContainer">@android:color/black</item>
+        <item name="colorPrimaryContainer">@android:color/black</item>
+        <item name="colorTertiaryContainer">@android:color/black</item>
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="colorBackgroundFloating">@android:color/black</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme2.DarkAmoled" parent="AppTheme2">
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorPrimarySurface">@android:color/black</item>
+        <item name="colorSurfaceDim">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurfaceVariant">@android:color/black</item>
+        <item name="statusBarBackground">@android:color/black</item>
+        <item name="android:toolbarStyle">@style/ToolbarTransparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="colorSecondaryContainer">@android:color/black</item>
+        <item name="colorContainer">@android:color/black</item>
+        <item name="colorPrimaryContainer">@android:color/black</item>
+        <item name="colorTertiaryContainer">@android:color/black</item>
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="colorBackgroundFloating">@android:color/black</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="AppTheme3.DarkAmoled" parent="AppTheme3">
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorPrimarySurface">@android:color/black</item>
+        <item name="colorSurfaceDim">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurfaceVariant">@android:color/black</item>
+        <item name="statusBarBackground">@android:color/black</item>
+        <item name="android:toolbarStyle">@style/ToolbarTransparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="colorSecondaryContainer">@android:color/black</item>
+        <item name="colorContainer">@android:color/black</item>
+        <item name="colorPrimaryContainer">@android:color/black</item>
+        <item name="colorTertiaryContainer">@android:color/black</item>
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="colorBackgroundFloating">@android:color/black</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="AppTheme4.DarkAmoled" parent="AppTheme4">
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorPrimarySurface">@android:color/black</item>
+        <item name="colorSurfaceDim">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurfaceVariant">@android:color/black</item>
+        <item name="statusBarBackground">@android:color/black</item>
+        <item name="android:toolbarStyle">@style/ToolbarTransparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="colorSecondaryContainer">@android:color/black</item>
+        <item name="colorContainer">@android:color/black</item>
+        <item name="colorPrimaryContainer">@android:color/black</item>
+        <item name="colorTertiaryContainer">@android:color/black</item>
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="colorBackgroundFloating">@android:color/black</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="AppTheme5.DarkAmoled" parent="AppTheme5">
+        <item name="colorSurface">@android:color/black</item>
+        <item name="colorPrimarySurface">@android:color/black</item>
+        <item name="colorSurfaceDim">@android:color/black</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+        <item name="colorSurfaceVariant">@android:color/black</item>
+        <item name="statusBarBackground">@android:color/black</item>
+        <item name="android:toolbarStyle">@style/ToolbarTransparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="colorSecondaryContainer">@android:color/black</item>
+        <item name="colorContainer">@android:color/black</item>
+        <item name="colorPrimaryContainer">@android:color/black</item>
+        <item name="colorTertiaryContainer">@android:color/black</item>
+        <item name="backgroundColor">@android:color/black</item>
+        <item name="colorBackgroundFloating">@android:color/black</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
     <style name="AppTheme2" parent="BaseAppTheme">
         <item name="colorPrimary">@color/md_theme_light_primary2</item>
         <item name="colorOnPrimary">@color/md_theme_light_onPrimary2</item>

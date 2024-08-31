@@ -16,7 +16,18 @@ open class ThemedActivity : AppCompatActivity() {
 
 @StyleRes
 fun Context.theme(): Int? {
-    return when (PreferenceManager.getDefaultSharedPreferences(this).getInt("themeColor", 0)) {
+    val darkAmoled = PreferenceManager.getDefaultSharedPreferences(this).getString("theme", "") == "dark-amoled"
+
+    return if(darkAmoled){
+        when (PreferenceManager.getDefaultSharedPreferences(this).getInt("themeColor", 0)) {
+            // No theme was chosen: the user wants to use the system dynamic color (from wallpaper for example)
+            -1 -> R.style.AmoledOverlay
+            1 -> R.style.AppTheme2_DarkAmoled
+            2 -> R.style.AppTheme3_DarkAmoled
+            3 -> R.style.AppTheme4_DarkAmoled
+            else -> R.style.AppTheme5_DarkAmoled
+        }
+    } else when (PreferenceManager.getDefaultSharedPreferences(this).getInt("themeColor", 0)) {
         // No theme was chosen: the user wants to use the system dynamic color (from wallpaper for example)
         -1 -> null
         1 -> R.style.AppTheme2
