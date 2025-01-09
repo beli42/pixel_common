@@ -1,5 +1,6 @@
 package org.pixeldroid.common
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.MenuItem
 import com.mikepenz.aboutlibraries.Libs
@@ -26,7 +27,14 @@ class LicenseActivity: ThemedActivity() {
     }
 
     private fun setupRecyclerView() {
-        val aboutLibsJson: String = applicationContext.resources.openRawResource(R.raw.aboutlibraries)
+        @SuppressLint("DiscouragedApi")
+        val jsonId: Int = applicationContext.resources.getIdentifier(
+            "aboutlibraries", "raw",
+            application.packageName
+        )
+
+        // If resource not found here, make sure you generate the dependencies aboutlibraries.json by having the id("com.mikepenz.aboutlibraries.plugin") plugin in the app's plugin block in build.gradle(.kts)
+        val aboutLibsJson: String = applicationContext.resources.openRawResource(jsonId)
             .bufferedReader().use { it.readText() }
 
         val libs = Libs.Builder()
