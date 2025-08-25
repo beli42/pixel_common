@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_app">Über %1$s</string>
+    <string name="dependencies_licenses">Abhängigkeiten und Lizenzen</string>
+    <string name="about">Über</string>
+    <string name="help_translate">Helfe dabei %1$s in deine Sprache zu übersetzen:</string>
+    <string name="issues_contribute">Melde Probleme oder helfe bei der Entwicklung der Anwendung:</string>
 </resources>
