@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about">关于</string>
+    <string name="issues_contribute">报告问题或为这个应用作贡献：</string>
+    <string name="about_app">关于 %1$s</string>
+    <string name="dependencies_licenses">依赖和许可证</string>
+    <string name="help_translate">帮忙把 %1$s 翻译成你的预言：</string>
 </resources>
